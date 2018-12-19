@@ -173,7 +173,7 @@ header {
  .textfor2{
     position: absolute;
     bottom: 20px;
-    right: 768px;
+    right: 800px;
     background-color: black;
     color: white;
     padding-left: 20px;
@@ -184,7 +184,7 @@ header {
  .textfor3{
     position: absolute;
     bottom: 20px;
-    right: 565px;
+    right: 580px;
     background-color: black;
     color: white;
     padding-left: 20px;
