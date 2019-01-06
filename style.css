@@ -55,7 +55,7 @@ header {
      transition: 0.5s;
  }
 .names{
-    font-size:45px;
+    font-size:23px;
     color:white;
     margin-top:5%;
     width:40%;
@@ -108,9 +108,10 @@ header {
  
  
  img {
-     width: 100%;
-     margin-top: -16px;
- }
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
  .container {
      margin:0 auto;
      width:100%;
@@ -214,3 +215,42 @@ header {
 
  }
 /*portfolio end /**/
+
+
+@media screen and (max-width:1080px) {
+    body {
+        width:100%;
+    }
+    .container {
+        width:100%
+    }
+    .h1 {
+        width:100%;
+    }
+    .need {
+        width:100%
+
+    }
+    .textfor2 {
+        width:auto;
+    }
+    .textfor3 {
+        width:auto;
+    }
+    .textfor4 {
+        width:auto;
+    }
+    .textfor5 {
+        width:auto;
+    }
+    h4{
+        width:auto;
+    }
+    .contain{
+        width:100%;
+    }
+    #me.responsive {width: 200px;}
+    #me.responsive{height: auto;}
+
+
+}
