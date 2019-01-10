@@ -173,7 +173,7 @@ header {
 
  .textfor2{
     position: absolute;
-    bottom: 20px;
+    bottom: 250px;
     right: 800px;
     background-color: black;
     color: white;
@@ -184,7 +184,7 @@ header {
 
  .textfor3{
     position: absolute;
-    bottom: 20px;
+    bottom: 250px;
     right: 580px;
     background-color: black;
     color: white;
@@ -195,7 +195,7 @@ header {
 
  .textfor4{
     position: absolute;
-    bottom: 20px;
+    bottom: 250px;
     right: 360px;
     background-color: black;
     color: white;
@@ -206,13 +206,24 @@ header {
 
  .textfor5{
     position: absolute;
-    bottom: 20px;
+    bottom: 250px;
     right: 156px;
     background-color: black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
 
+ }
+
+
+ .textfor6{
+    position: absolute;
+    bottom: 20px;
+    right: 800px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
  }
 /*portfolio end /**/
 
