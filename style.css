@@ -225,6 +225,15 @@ header {
     padding-left: 20px;
     padding-right: 20px;
  }
+ .textfor7{
+    position: absolute;
+    bottom: 20px;
+    right: 600px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
 /*portfolio end /**/
 
 
