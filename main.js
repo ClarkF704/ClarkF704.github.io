@@ -29,4 +29,5 @@ $("#submitBtn").on("click", function (e) {
     $("#emailInput").val("");
     $("#subjectInput").val("");
     $("#messageInput").val("");
+    alert("Your Message has been sent")
 });
