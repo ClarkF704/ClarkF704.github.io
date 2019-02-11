@@ -1,285 +1,115 @@
-body,html{
-    margin:0;
-    padding:0;
-    background-color:#bdbbbb;
+a{
+   color: inherit; 
 
+} 
+a:hover { 
+  color:lightgray;
+  text-decoration: none;
 }
-header {
-    width:100%;
-    height:80px;
-    background-color:#90afc5;
-    margin:0px;
-    position:fixed;
+p{
+  font-size:20px;
+}
+.hOnez span{
+  font-size:70px;
+  font-family: 'Playfair Display', serif;
+  color:white;
+  
+}
+.hOnez{
+  text-align:center;
+  padding-bottom:50px;
+  padding-top:230px;
+}
+.nav-bar{
+    padding-top:20px;
+    float:right;
     
 }
- h1{
-     position:absolute;
-     padding: 3px;
-     padding-right:40px;
-     float:left;
-     margin-left:2%;
-     margin-top:10px;
-     font-family: 'Georgia', Times, Times New Roman, serif;
-     color:#90afc5;;
-     margin:10px;
-     font-size:10px;
-     
- }
- ul {
-     width: auto;
-     float: right;
-     margin-top: 8px;
-     padding-right: 50px;
-     font-size: 40px;
-     margin-right:50px;
-     margin-left:50px;
+.aboutH{
+  font-size:30px;
+  font-family: 'Playfair Display', serif;
+  color:white;
+  text-align:center;
+  padding-bottom:50px;
+}
+img{
+  border-radius: 15px;
+  border:1px solid;
+}
+.textB{
+  background-color:white;
+}
 
- }
- li{
-     display: inline-block;
-     padding-right: 30px;
-     
-
- }
-
- a{
-     text-align: center;
-     color:gray;
-     text-decoration: none;
-     font-family:'Georgia', Times, Times New Roman, serif;
-     font-size:1.2vw;
- }
-
- a:hover{
-     color: black;
-     transition: 0.5s;
- }
-.names{
-    font-size:23px;
+  .textCC{
+    font-family: 'Playfair Display', serif;
     color:white;
-    margin-top:5%;
-    width:40%;
-    height:100%;
-    background-color:black;
-
-
-}
-.yet {
-    height:51%;
-    width:31%;
-    background-color;
-    float:left;
-    font-size: 20px;
     
-    border:0px 0px 0px 70px;
-    border-color:white;
-    margin-left:15%;
-    position: absolute;
-    bottom:0;
-}
 
-
-.word{
-    line-height: 2 ;
-    padding-left:-20px;
-}
- /* above is the navigation /*/
- 
- .linez{
-    border-bottom:1px solid #CCC;
-    
- }
- 
- 
- footer{
-     margin-top:3px;
- }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
-}
- .container {
-     margin:0 auto;
-     width:100%;
-     border-color:gray;
-     border-bottom-color:black;
-     background-color:#f0eceb;
-     border-width: 0px 0px 1px 0px;
-     border-style:solid;
-     height:125px;
-     
- }
- .need {
-    margin:0 auto;
-    margin-top: 10px;
-    width:960px;
-    background-color:#f0eceb;
-    padding-bottom: 2%;
-    padding-right: 2%;
-    padding-left: 2%;
-    padding-top: 1%;
-    border-color:gray;
-    border-width: 1px;
-    border-style:solid;
-    position: relative;
-    margin-bottom:2%;
- }
- .same{
-    margin:0 auto;
+  }
+  .iconz{
     text-align:center;
-    background-color:rgb(167, 167, 167);
-    width:100%;
-    position: fixed;
-   bottom: 0;
- }
- p {
-     color:black;
-     font-family:'Georgia', Times, Times New Roman, serif;
- }
+    text-decoration: none !important;
+  }
+  /* h1{
+    padding-bottom:50px;
+    
+    font-size:130px;
+  } */
+  .pH{
+    font-size:30px;
+    font-family: 'Playfair Display', serif;
+    color:white;
+    text-align:center;
+    padding-bottom:50px;
+  }
+  form{
+    color:white;
+  }
+  .cT{
+    font-size:30px;
+    font-family: 'Playfair Display', serif;
+    color:white;
+    text-align:center;
+  }
+  .logo{
+    float:left;
+    padding-top:4px;
+  }
+/* Moving background */
 
- nav{
-     height:100%;
-     position:relative;
- }
- #me{
-     margin:auto 0px;
-     float: left;
-     border-color:black;
-     border-width:1px;
-     border-style:solid;
-     margin-right: 20px;
- }
- /* portfolio classes /***/
- 
- .contain {
-    position: relative;
-    font-family: Arial;
- }
-  /*portfolio /**/
-
- .textfor2{
-    position: absolute;
-    bottom: 250px;
-    right: 800px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-
- }
-
- .textfor3{
-    position: absolute;
-    bottom: 250px;
-    right: 580px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-
- }
-
- .textfor4{
-    position: absolute;
-    bottom: 250px;
-    right: 360px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-
- }
-
- .textfor5{
-    position: absolute;
-    bottom: 250px;
-    right: 156px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-
- }
-
-
- .textfor6{
-    position: absolute;
-    bottom: 20px;
-    right: 800px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
- }
- .textfor7{
-    position: absolute;
-    bottom: 20px;
-    right: 600px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
- }
- .textfor8{
-    position: absolute;
-    bottom: 20px;
-    right: 400px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
- }
-/*portfolio end /**/
-
-
-@media screen and (max-width:1080px) {
-    body {
-        width:100%;
-    }
-    .container {
-        width:100%
-    }
-    .h1 {
-        width:100%;
-    }
-    .need {
-        width:100%
-
-    }
-    .textfor2 {
-        width:auto;
-    }
-    .textfor3 {
-        width:auto;
-    }
-    .textfor4 {
-        width:auto;
-    }
-    .textfor5 {
-        width:auto;
-    }
-    h4{
-        width:auto;
-    }
-    .contain{
-        width:100%;
-    }
-    #me.responsive {width: 200px;}
-    #me.responsive{height: auto;}
-
-
+body
+{
+  width: 95%; 
+  height:100%;
+  margin:0em 5%;
+  background-color:black;
+  background-image: url("seam.jpg");
+  background-position: center bottom;
+  animation: animatedBackground 30s linear infinite;
+  /* Safari and Chrome: */
+  -webkit-animation: animatedBackground 30s linear infinite;
+}
+@keyframes animatedBackground 
+{
+  from { background-position: 0 100%; }
+  to { background-position: 100% 100%; }
+}
+@-webkit-keyframes  animatedBackground 
+{
+  from { background-position: 0 100%; }
+  to { background-position: 100% 100%; }
+}
+#content
+{
+  position:fixed;
+  top:5em;
+  height:1em;
+  width:19em;
+  background-color:rgba(1,1,1,0.5);
+  color:white;
+  padding:2em;
+  border-bottom-right-radius: 5em;
+  -webkit-border-bottom-right-radius: 5em;
+   border-top-left-radius: 5em;
+  -webkit-border-top-left-radius: 5em;
 }
