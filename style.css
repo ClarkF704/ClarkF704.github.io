@@ -1,115 +1,332 @@
-a{
-   color: inherit; 
-
-} 
-a:hover { 
-  color:lightgray;
+.ul-nav {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 0;
+  color: #dedfea;
+}
+p {
+  color: #dedfea;
+  font-family: 'Abel', sans-serif;
+}
+.pro-web{
+  color: #dedfea;
+  font-family: 'Abel', sans-serif;
+}
+a {
+  color: #dedfea;
   text-decoration: none;
 }
-p{
-  font-size:20px;
+a:hover {
+  color:#72b41b;
+  text-decoration: none;
+  font-weight: bold;
+
 }
-.hOnez span{
-  font-size:70px;
-  font-family: 'Playfair Display', serif;
-  color:white;
+
+a:active {
+  color:#72b41b;
+}
+
+body{
+  background-color: #646064;
+}
+
+
+.li-nav {
+  display: inline;
+  padding:30px;
+}
+.ul-nav{
+  float: right;
+  font-family: 'Source Code Pro', monospace;
+}
+.title-top{
+  margin-bottom:150px;
+  font-size:30px;
+  columns: #444444;
+  color:#72b41b;
+  font-family: 'Abel', sans-serif;
+}
+.clark-title{
+  color:#72b41b;
+  font-family: 'Abel', sans-serif;
+  font-size:30px;
+}
+.clark-title:hover{
+  color:#131417;
+
+}
+.services{
+  margin-top:40px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Source Code Pro', monospace;
+}
+.project-shwocase-word{
+  color:#72b41b;
+}
+.hello-welcome{
+  font-size: 20px;
+  color: #dedfea;
+  font-family: 'Abel', sans-serif;
+}
+.i-am-clark{
+  font-size: 20px;
+  margin-bottom:50px;
+  color:#dedfea;
+  font-family: 'Source Code Pro', monospace;
+}
+.info-for-pro{
+  font-size: 18px;
+}
+.text-info-welcome{
+  margin-bottom:35px;
+  font-size: 18px;
+  color:#dedfea;
+  font-family: 'Abel', sans-serif;
+}
+.first-container{
+  margin-bottom:70px;
+  position: relative
+}
+.ul-list{
+  list-style-type: none;
+  font-family: 'Source Code Pro', monospace;
+}
+.web-dev-title{
+  color: #72b41b;
+}
+.new-row-showcase{
+  margin-top:40px;
+}
+.showcase-lab{
   
 }
-.hOnez{
-  text-align:center;
-  padding-bottom:50px;
-  padding-top:230px;
+
+.li-list{
+  color:#dedfea;
+  font-size: 15px;
+  font-weight: bold;
 }
-.nav-bar{
-    padding-top:20px;
-    float:right;
-    
+.btn-modal-c{
+  background-color: #72b41b;
+  color:#dedfea;
+  font-family: 'Source Code Pro', monospace;
+ 
+  font-size: 15px;
+  border: none;
+  
 }
-.aboutH{
-  font-size:30px;
-  font-family: 'Playfair Display', serif;
-  color:white;
-  text-align:center;
-  padding-bottom:50px;
+.btn-modal-c:hover{
+   background-color: #131417;
+  color:#72b41b;
+  
+  font-size: 15px;
+  border: none;
+  
 }
-img{
-  border-radius: 15px;
-  border:1px solid;
+.contact-btn{
+  background-color: #72b41b;
+  color:#dedfea;
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 10px;
+  font-size: 15px;
+  border: none;
+  padding: 5px;
 }
-.textB{
-  background-color:white;
+.contact-btn:hover{
+  background-color: #131417;
+  color:#72b41b;
+  border-radius: 10px;
+  font-size: 15px;
+  border: none;
+  padding: 5px;
+}
+.answer-for-what{
+  color:#72b41b;
+  font-family: 'Source Code Pro', monospace;
+}
+.img-for-what{
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  margin-top:25px;
+  border-radius: 10px;
+  border: #72b41b solid;
+  box-shadow: #dedfea;
+}
+.semi-colon-span{
+  /* margin-left:20px; */
+  font-weight: normal;
+}
+.img-num-one{
+  animation: 1s ease-out 0s 1 slideInFromRight;
+  float:right;
+  border: #72b41b solid;
+  margin-top:63px;
+  border-radius: 5px;
+  box-shadow: inset;
+}
+.list-row{
+  padding:10px;
 }
 
-  .textCC{
-    font-family: 'Playfair Display', serif;
-    color:white;
-    
+.modal-contact-title{
+  color:#131417;
+  font-family: 'Source Code Pro', monospace;
+}
+.modal-text-info{
+  color:#131417;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+}
+.period-title-span{
+  color:#131417;
+  font-family: 'Abel', sans-serif;
+}
 
-  }
-  .iconz{
-    text-align:center;
-    text-decoration: none !important;
-  }
-  /* h1{
-    padding-bottom:50px;
-    
-    font-size:130px;
-  } */
-  .pH{
-    font-size:30px;
-    font-family: 'Playfair Display', serif;
-    color:white;
-    text-align:center;
-    padding-bottom:50px;
-  }
-  form{
-    color:white;
-  }
-  .cT{
-    font-size:30px;
-    font-family: 'Playfair Display', serif;
-    color:white;
-    text-align:center;
-  }
-  .logo{
-    float:left;
-    padding-top:4px;
-  }
-/* Moving background */
+.anchor-email-modal{
+  color:#131417;
+  font-family: 'Abel', sans-serif;
+}
 
-body
-{
-  width: 95%; 
-  height:100%;
-  margin:0em 5%;
-  background-color:black;
-  background-image: url("seam.jpg");
-  background-position: center bottom;
-  animation: animatedBackground 30s linear infinite;
-  /* Safari and Chrome: */
-  -webkit-animation: animatedBackground 30s linear infinite;
+.typing-demo {
+  width: 18ch;
+  animation: typing 1s steps(18), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #131417;
+  font-size: 30px;
 }
-@keyframes animatedBackground 
-{
-  from { background-position: 0 100%; }
-  to { background-position: 100% 100%; }
+.code-img-row{
+  overflow:hidden;
 }
-@-webkit-keyframes  animatedBackground 
-{
-  from { background-position: 0 100%; }
-  to { background-position: 100% 100%; }
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
-#content
-{
-  position:fixed;
-  top:5em;
-  height:1em;
-  width:19em;
-  background-color:rgba(1,1,1,0.5);
-  color:white;
-  padding:2em;
-  border-bottom-right-radius: 5em;
-  -webkit-border-bottom-right-radius: 5em;
-   border-top-left-radius: 5em;
-  -webkit-border-top-left-radius: 5em;
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+header {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+  /* background: #333;
+  padding: 30px; */
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.hamburger {
+  display: none;
+}
+
+
+
+/* nav */
+/* nav media */
+@media only screen and (max-width: 1199px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .hamburger {
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    
+  }
+  .showcase-img{
+    padding-bottom:10px;
+    margin-left:85px;
+  }
+  .title-top{
+    margin-left:30px;
+  }
+  .text-showcase{
+    margin-left:80px;
+    padding-top: 20px;
+  }
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #131417;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #646064;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.sidebar a:hover {
+  color: #72b41b;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #131417;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }

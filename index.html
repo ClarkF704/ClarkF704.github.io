@@ -1,70 +1,227 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Clark's Portfolio</title>
-    <link rel="shortcut icon" type="image/png" href="img/cfc.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Chivo|Playfair+Display:700" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clark Farriss Portfolio | Welcome</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-        crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
     
-    
+    <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="./index.html">Home</a>
+            <a href="./portfolio.html">Projects & Work</a>
+          </div>
+          <div id="main" class="" style="position: absolute; top:0px; left:0px; z-index: 1;">
+            <button class="openbtn hamburger" onclick="openNav()">☰</button>  
+          </div>
+    <div class="container first-container">
+        
+       <div class="col-lg-6">
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="title-top"><a class="clark-title" href="./index.html">Clark</a><span class="period-title-span">.</span></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="hello-welcome">Hello !</p>
+            </div>
+            <div class="col-lg-6">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="i-am-clark typing-demo">I Am Clark Farriss</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="text-info-welcome">I am a Web Developer with extensive experience for over 4 years. My expertise is in creating web application software using Javascript base libraries and frameworks such as React.js & Angular 2 + </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <button type="button" class="contact-btn" data-toggle="modal" data-target="#myModal">Contact Me</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-lg-6">
         <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                            <div class="logo">
-                                    <a href="index.html"><img src="img/cfc.png" height="50" width="50"></a>
-                                </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="nav-bar">
-                            <a href="about.html"><button type="button" class="btn btn-secondary">About Me</button></a>
-                            <a href="portfolio.html"><button type="button" class="btn btn-secondary">Portfolio</button></a>
-                            <a href="contact.html"><button type="button" class="btn btn-secondary">Contact</button></a>
-                        </div>
-                    </div>
-
-                </div>
+            <div class="row desktop-nav">
+                 <div class="col-lg-6">
+                <ul class="ul-nav">
+                    <li class="li-nav"><a href="./index.html">Home</a></li>
+                    <li class="li-nav"><a href="./portfolio.html">Projects & Work</a></li>
+                  </ul>
+            </div> 
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                            <div class="hOnez">
-                                    <h1><span>Developer.</span></h1>
-                                </div>
-                    </div>
-                </div>
-            </div>
-    <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="iconz">
-                            <a href="https://github.com/ClarkF704"><img src="img/Octocat.png"></a>
-                            <a href="https://www.linkedin.com/in/clark-farriss-5a2184176/"><img src="img/link.png"></a>
-                    </div>  
+            <div class="row code-img-row">
+                <div class="col-lg-6">
+                  <img class="img-num-one" width="400px" height="300px" src="./img/codeImg.png">  
                 </div>
             </div>
         </div>
-        <script src="main.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-</body>
+    </div> 
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img width="300px" height="300px" class="img-for-what" src="img/amora.png">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="pro-web">I am a Professional <span class="web-dev-title">Web Developer</span></h2>
+                <p class="info-for-pro">My experiences are diverse. Ranging from small freelance Upwork projects to Bank of America's Financial Center & ATM Technology projects. Freelacing projects were mostly built in React.js while Bank of America's projects were built in Angular. Both had strong emphansis on JavaScript, HTML, CSS, jQuery and Bootstrap. Using JavaScript DOM manipulation has never been easier as well as distributing information to and from REST APIs using GET, POST, PUT, & DELETE CRUD methods.  </p>
+                <ul class="ul-list">
+                    <div class="row list-row">
+                       <div class="col-sm-4">
+                        <li class="li-list">Name</li>
+                    </div>
+                    <div class="col-sm-1">
+                        <span class="semi-colon-span">:</span>
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="answer-for-what">Clark Farriss</span>
+                    </div> 
+                    </div>
+                    <div class="row list-row">
+                        <div class="col-sm-4">
+                         <li class="li-list">Citizen Status</li>
+                     </div>
+                     <div class="col-sm-1">
+                         <span class="semi-colon-span">:</span>
+                     </div>
+                     <div class="col-sm-4">
+                         <span class="answer-for-what">US Citizen</span>
+                     </div> 
+                     </div>
+                     <div class="row list-row">
+                        <div class="col-sm-4">
+                         <li class="li-list">Phone Number</li>
+                     </div>
+                     <div class="col-sm-1">
+                         <span class="semi-colon-span">:</span>
+                     </div>
+                     <div class="col-sm-4">
+                         <span class="answer-for-what">704-906-8922</span>
+                     </div> 
+                     </div>
+                     <div class="row list-row">
+                        <div class="col-sm-4">
+                         <li class="li-list">Email</li>
+                     </div>
+                     <div class="col-sm-1">
+                         <span class="semi-colon-span">:</span>
+                     </div>
+                     <div class="col-sm-4">
+                         <span class="answer-for-what">clarkfarriss@yahoo.com</span>
+                     </div> 
+                     </div>
+                </ul>
+                     </div>  
+            
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="services">My Showcase <span class="project-shwocase-word">Projects</span></p>
+                </div>
+            </div>
+            <div class="row new-row-showcase">
+                <div class="col-md-4">
+                    <div class="text-showcase">
+                    <p class="showcase-lab">React Memory Game</p>
+                    <a href="https://serene-chamber-13481.herokuapp.com/"><img src="img/card.gif" height="250" width="300"></a>
+                    </div>
 
+                </div>
+                <div class="col-md-4">
+                    <div class="text-showcase">
+                    <p class="showcase-lab">Trail Finder / Hiking Application</p>
+                    <a href="https://clarkf704.github.io/thisistheoutDoor/"><img src="img/logo7.jpg" height="250" width="300"></a> 
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="text-showcase">
+                    <p class="showcase-lab">React Movie Searcher</p>
+                    <a href="https://immense-wave-96418.herokuapp.com/"><img src="img/react-movie.png" height="250" width="300"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog" style="background-color: #dedfea;">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title modal-contact-title">Contact Information</h4>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-3">
+                      <p class="modal-text-info">Cell Phone:</p>
+                  </div>
+                  <div class="col-sm-3">
+                      <p class="modal-text-info">704-906-8922</p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-3">
+                      <p class="modal-text-info">Email:</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <p class="modal-text-info"><a class="anchor-email-modal" href="mailto:clarkfarriss@yahoo.com.com">clarkfarriss@yahoo.com</a></p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-3">
+                    <p class="modal-text-info">Linkedin:</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <p class="modal-text-info"><a class="anchor-email-modal" href="https://www.linkedin.com/in/clark-farriss-5a2184176/">clark-farriss-5a2184176</a></p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-3">
+                    <p class="modal-text-info">Github:</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <p class="modal-text-info"><a class="anchor-email-modal" href="https://github.com/ClarkF704">ClarkF704</a></p>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-modal-c" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+    </div>
+
+    
+    <script src="main.js"></script>
+    <!-- jQuery Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
 </html>
