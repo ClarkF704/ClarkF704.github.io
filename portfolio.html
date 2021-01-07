@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Clark's Portfolio</title>
-    <link rel="shortcut icon" type="image/png" href="img/cfc.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Chivo|Playfair+Display:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
     <!-- Latest compiled and minified CSS -->
@@ -21,119 +20,54 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-        <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
 
 <body>
-        <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                            <div class="logo">
-                                    <a href="index.html"><img src="img/cfc.png" height="50" width="50"></a>
-                                </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="nav-bar">
-                            <a href="about.html"><button type="button" class="btn btn-secondary">About Me</button></a>
-                            <a href="portfolio.html"><button type="button" class="btn btn-secondary">Portfolio</button></a>
-                            <a href="contact.html"><button type="button" class="btn btn-secondary">Contact</button></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="./index.html">Home</a>
+        <a href="./portfolio.html">Projects & Work</a>
+      </div>
+      <div id="main" class="" style="position: absolute; top:0px; left:0px; z-index: 1;">
+        <button class="openbtn hamburger" onclick="openNav()">☰</button>  
+      </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="pH">
+            <div class="col-lg-6">
+                <div class="clark-title">
                     <a href="index.html">
-                    <h1>Portfolio</h1>
+                    <h1 class="clark-title-port">Portfolio<span class="period-title-span">.</span></h1>
                     </a>
                 </div>
             </div>
+            <div class="desktop-nav">
+                <div class="">
+               <ul class="ul-nav-port">
+                   <li class="li-nav"><a href="./index.html">Home</a></li>
+                   <li class="li-nav"><a href="./portfolio.html">Projects & Work</a></li>
+                 </ul>
+           </div> 
+           </div>
         </div>
     </div>
     <div class="container">
-            <div class="col-sm-4"><a href="http://www.schwenck.live/#/landing"><img src="img/sch.png" height="200" width="200"></a>
-                <h3 style="color:white; text-decoration:underline;">Schwenck Live</h3>
-                <p style="color:antiquewhite">Here I created a Web App that tracks a man biking from NYC to Alaska. Key technologies are <strong>React.js & Node.js</strong></p>
-                </div>
-                <div class="col-sm-4"><a href="http://www.avanzaanalyticsllc.com"><img src="img/greenwhite.png" height="200" width="200"></a>
-                    <h3 style="color:white; text-decoration:underline;">Avanza Analytics</h3>
-                    <p style="color:antiquewhite">Here I created my personal business Web App that I freelance through. Key technologies are <strong>Node.js, MongoDB, Express.js, EJS, Bootsrap, and Passport.js</strong></p>
-                    </div>
-                    <div class="col-sm-4"><a href="https://tranquil-meadow-38540.herokuapp.com/"><img src="img/1c.png" height="200" width="200"></a>
-                        <h3 style="color:white; text-decoration:underline;">Christine Photography</h3>
-                        <p style="color:antiquewhite">Here I created a business photography Web App that lets you get in touch with the photographer via email. Key technologies are <strong>React.js, Node.js, Bootstrap, Express.js, CSS, NodeMailer</strong></p>
-                    </div>
-        
+            <div class="port-text-div">
+                <div class="col-sm-4"><p class="portfolio-text-titles typing-demo-port">React Memory</p><a  href="https://serene-chamber-13481.herokuapp.com/"><img class="img-port-page" src="img/card.gif" height="200" width="200"></a></div> 
+            </div>
+            <div class="port-text-div">
+                <div class="col-sm-4"><p class="portfolio-text-titles typing-demo-port-lg">Hiking Application</p><a href="https://clarkf704.github.io/thisistheoutDoor/"><img class="img-port-page" src="img/logo7.jpg" height="200" width="200"></a></div> 
+            </div>
+            <div class="port-text-div">
+                <div class="col-sm-4"><p class="portfolio-text-titles typing-demo-port-lg">React Movie Searcher</p><a href="https://immense-wave-96418.herokuapp.com/"><img class="img-port-page" src="img/react-movie.png" height="200" width="200"></a></div> 
+            </div>
     </div>
-    <div class="container">
-        <div class="col-sm-4"><a href="https://serene-chamber-13481.herokuapp.com/"><img src="img/card.gif" height="200" width="200"></a>
-            <h3 style="color:white; text-decoration:underline;">React Memory Game</h3>
-            <p style="color:antiquewhite">Here I created a React application that tests your memory. Key technologys are <strong>React.js and Node.js</strong></p>
-            </div>
-            
-            <div class="col-sm-4"><a href="https://clarkf704.github.io/thisistheoutDoor/"><img src="img/logo7.jpg" height="200" width="200"></a>
-                <h3 style="color:white; text-decoration:underline;">Hiking App</h3>
-                <p style="color:antiquewhite">Here I created a Web App that lets you find hiking and mountain biking trails near your desired location. Key technologies were <strong>Foundation library, Javascript, jQuery, and REI API</strong></p>
-                </div>
-
-                <div class="col-sm-4"><a href="https://immense-wave-96418.herokuapp.com/"><img src="img/react-movie.png" height="200" width="200"></a>
-                    <h3 style="color:white; text-decoration:underline;">Movie Searcher</h3>
-                    <p style="color:antiquewhite">This is a React movie searcher. I am consuming Moviedb API. Key technologies were <strong>React.js, Node.js, Bootstrap, Express.js, CSS</strong></p>
-                </div>
-            
-        </div>
-        <div class="container">
-                
-            <div class="col-sm-4"><a href="https://protected-waters-81379.herokuapp.com/"><img src="img/search.jpg" height="200" width="200"></a>
-                <h3 style="color:white; text-decoration:underline;">Find Friends</h3>
-                <p style="color:antiquewhite">Here I created a Web App using<strong> Handlebars, HTML, CSS, Node.js, and Express.js</strong></p>
-            </div>
-                <div class="col-sm-4"><a href="https://clarkf704.github.io/Giphyfun/"><img src="img/giphy.gif" height="200" width="200"></a>
-                    <h3 style="color:white; text-decoration:underline;">Giphy API</h3>
-                    <p style="color:antiquewhite">Here I created a Web App using<strong> jQuery, Javascript, HTML, CSS, and Giphy API</strong></p>
-                </div>
-
-                <div class="col-sm-4"><a href="https://clarkf704.github.io/Psychic-Game/"><img src="img/newPsy.png" height="200" width="200"></a>
-                    <h3 style="color:white">Guessing Game</h3>
-                        <p style="color:antiquewhite">Here I created a Web App using <strong>HTML, CSS, Bootstrap, and Javascript</strong></p>
-                    </div>
-                <!-- <div class="col-sm-4"><a href="https://clarkf704.github.io/burger/"><img src="img/burg.gif" height="200" width="200"></a></div> -->
-            </div>
-            <div class="container">
-                    <div class="col-sm-4"><a href="https://quiet-depths-27711.herokuapp.com/"><img src="img/mag.gif" height="200" width="200"></a>
-                        <h3 style="color:white; text-decoration:underline;">Fox News Scraper</h3>
-                        <p style="color:antiquewhite">Here I created a Web Scraper using<strong> Node.js, MongoDB, Express.js, Cheerio, Axios, HTML, CSS, and Bootstrap</strong></p>
-                    </div>
-                
-                <div class="col-sm-4"><a href="https://sleepy-basin-30769.herokuapp.com/"><img src="img/redux.png" height="200" width="200"></a>
-                    <h3 style="color:white; text-decoration:underline;">React Redux Todolist</h3>
-                    <p style="color:antiquewhite">Here I created a React app implementing Redux <strong>Node.js, Express.js, Bootsrap, React and Redux </strong></p>
-                    </div>
-
-                    <div class="col-sm-4"><a href="https://trvld.herokuapp.com"><img src="img/earth.gif" height="200" width="200"></a>
-                        <h3 style="color:white; text-decoration:underline;">Travel App</h3>
-                        <p style="color:antiquewhite">Here I created a mock social media Web App that lets you share vacation itenerarys with friends. Key technologies are <strong>React.js, Node.js, Bootstrap, Express.js, CSS, MongoDB, and Passport.js</strong></p>
-                    </div>
-
-            </div>
-            
+        <div class="container">   
+            <div class="col-sm-4"><p class="portfolio-text-titles">React Redux CRUD Todo</p><a href="https://sleepy-basin-30769.herokuapp.com/"><img class="img-port-page" src="img/redux.png" height="200" width="200"></a></div>
+            <div class="col-sm-4"><p class="portfolio-text-titles">Giphy API</p><a href="https://clarkf704.github.io/Giphyfun/"><img class="img-port-page" src="img/giphy.gif" height="200" width="200"></a></div>
+            <div class="col-sm-4"><p class="portfolio-text-titles">Psychic Game</p><a href="https://clarkf704.github.io/Psychic-Game/"><img class="img-port-page" src="img/newPsy.png" height="200" width="200"></a></div>
+        </div>  
     </div>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="iconz">
-                    <a href="https://github.com/ClarkF704"><img src="img/Octocat.png"></a>
-                    <a href="https://www.linkedin.com/in/clark-farriss-5a2184176/"><img src="img/link.png"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script src="main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
